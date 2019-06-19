@@ -1,3 +1,3 @@
-# Cauldron feedback
+# Cauldron Feedback
 
-Feedback for the Cauldron
+This project is used to gather feedback about the https://alpha.cauldron.io service.
