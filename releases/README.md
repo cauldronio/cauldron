@@ -1,3 +1,14 @@
+## Curry
+
+- Include Hatstall
+- Add datatables
+- Select the backend to be analyzed from the "add datasource" input
+- Force refresh repositories when they are added to a project
+- Make Google Analytics module optional
+- Include version name in the logo
+- Fix log issues
+
+
 ## Bechamel
 
 - Migrate to Opendistro 1.2.0

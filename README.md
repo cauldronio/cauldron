@@ -12,4 +12,4 @@ Cauldron is based on the [GrimoireLab toolset](https://chaoss.github.io/grimoire
 
 ### [User documentation (in progress)](guides/README.md)
 
-### [Release notes](guides/RELEASES.md)
+### [Release notes](releases/)
