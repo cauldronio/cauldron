@@ -8,7 +8,7 @@ Cauldron is a proof of concept service developed by [Bitergia](https://bitergia.
 
 Cauldron is based on the [GrimoireLab toolset](https://chaoss.github.io/grimoirelab). All the software used to produce it is free / open source software.
 
-### [Run the demo (alpha.cauldron.io)](https://alpha.cauldron.io)
+### [Run the demo (cauldron.io)](https://cauldron.io)
 
 ### [User documentation (in progress)](guides/README.md)
 
