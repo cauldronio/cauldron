@@ -47,10 +47,11 @@ Once Kibana has started, you can see some simple panels that can be extended by 
 
   You can access the `Visualize` or the `Dashboard` tab and create your own panels with data.
 
-- **Import panels from global**
+
+## Import panels
 
   We have created some panels that work with the data in Cauldron. If you want to import them to your private tenant, you have to:
   - Clone or download this repository.
-  - Go to `Management` > `Saved Objects` > `Import` and select the file of this repository: `cauldron/guides/panels/global/panels.json`.
+  - Go to `Management` > `Saved Objects` > `Import` and select the file of this repository: `cauldron/guides/panels/global/visualizations.json`.
 
   If you want the full Global dashboard in your private tenant, you can import the file `cauldron/guides/panels/global/full_dashboards.json`.
