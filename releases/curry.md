@@ -1,4 +1,4 @@
-In this new realease, [Hatstall](https://github.com/chaoss/grimoirelab-hatstall), a web interface for Sortinghat for managing identities, is one of the most important features included in Cauldron. It is only accessible from a local or custom deployment. It allows to merge identities and associate them to organizations. For more information on how to create your own instance go to [deployment repository](https://gitlab.com/cauldron2/cauldron-deployment).
+In this new realease, [Hatstall](https://github.com/chaoss/grimoirelab-hatstall), a web interface for Sortinghat for managing identities, is one of the most important features included in Cauldron. It is only accessible from a local or custom deployment. It allows to merge identities and associate them to organizations. For more information on how to create your own instance go to [deployment repository](https://gitlab.com/cauldronio/cauldron-deployment).
 
 Datatables is another important feature, it allows you to manage a big amount of repositories within a single table which make it easier to filter datasources and pagination. Repository list should be manually updated to avoid excessive workload.
 
