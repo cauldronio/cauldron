@@ -20,3 +20,16 @@
 - Fix UI issues
 - Fix mordred and token issues
 - Fix deployment issues
+
+
+## Dijon
+
+- New settings page for managing the tokens and username
+- New home page
+- New user projects page
+- Cauldron newsletter
+- New panels for Kibana (will change in a near future)
+- Updated the header of a project page
+- Migrate from alpha.cauldron.io to cauldron.io
+- Move the group from cauldron2 to cauldronio
+- Fix typos
