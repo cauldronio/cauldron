@@ -1,3 +1,19 @@
+## Emmental
+
+- Migrate to ODFE 1.3.0
+- Migrate to Django 2.2
+- Allow upgrade/downgrade admin users from the admin page
+- New Cauldron public dashboard
+- Allow user deletion from the admin page
+- Allow account deletion from the settings page
+- Allow Dashboard deletion
+- Enable the analysis of repositories inside Gitlab groups
+- Smart Navigation Menu
+- Set up a public status page
+- Cauldron forum
+- Minor fixes
+
+
 ## Dijon
 
 - New settings page for managing the tokens and username
