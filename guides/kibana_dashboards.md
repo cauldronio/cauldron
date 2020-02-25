@@ -30,7 +30,7 @@ Once Kibana has started, you can see some simple panels that can be extended by 
 
   We highly recommend to import the index patterns we have created. For that you will need to:
 
-  Clone or download this repository. Go to `Management` > `Saved Objects` > `Import`, select from this repository the file `cauldron/guides/panels/global/index_patterns.json` and click `Import`.
+  Clone or download this repository. Go to `Management` > `Saved Objects` > `Import`, select from this repository the file `cauldron/guides/panels/global/index_patterns.ndjson` and click `Import`.
 
     ![Import index patterns](images/kibana/import_index_patterns.png)
 
@@ -52,6 +52,6 @@ Once Kibana has started, you can see some simple panels that can be extended by 
 
   We have created some panels that work with the data in Cauldron. If you want to import them to your private tenant, you have to:
   - Clone or download this repository.
-  - Go to `Management` > `Saved Objects` > `Import` and select the file of this repository: `cauldron/guides/panels/global/visualizations.json`.
+  - Go to `Management` > `Saved Objects` > `Import` and select the file of this repository: `cauldron/guides/panels/global/visualizations.ndjson`.
 
-  If you want the full Global dashboard in your private tenant, you can import the file `cauldron/guides/panels/global/full_dashboards.json`.
+  If you want the full Global dashboard in your private tenant, you can import the file `cauldron/guides/panels/global/full_dashboards.ndjson`.
