@@ -1,3 +1,17 @@
+## Foie
+- Data from GitHub now is enriched correctly
+- User and password is not needed for Hatstall
+- Pagination for the project page
+- Pagination for the projects page
+- Create and test snapshots
+- Remove Archimedes and use a simpler way to import visualizations
+- Migrate to Opendistro 1.4.0
+- Migrate to Django 3.0
+- Update the token request message
+- Set admin users from the inventory variables
+- Minor fixes
+
+
 ## Emmental
 
 - Migrate to ODFE 1.3.0
