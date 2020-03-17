@@ -1,3 +1,14 @@
+## Ginger
+ - Option to remove Sortinghat from Grimoirelab
+ - New status page for Cauldron
+ - Social share buttons on project overview
+ - Repository table improvements
+ - **(WIP)** New Task Management system
+ - **(WIP)** Cloud migration
+ - **(WIP)** Substitution of Google Analytics by Matomo
+ - Fix some bugs
+
+
 ## Foie
 - Data from GitHub now is enriched correctly
 - User and password is not needed for Hatstall
