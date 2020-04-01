@@ -1,3 +1,10 @@
+## Honey
+ - Anonymous data in enriched and raw indices
+ - Creation of My workspace
+ - Terraform templates to deploy on DigitalOcean
+ - Usage of Syslog for log collection
+ - Minor fixes
+
 ## Ginger
  - Option to remove Sortinghat from Grimoirelab
  - New status page for Cauldron
