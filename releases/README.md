@@ -1,3 +1,16 @@
+
+## Iceberg
+- Redesign project page with a more intuitive header
+- We can deploy in 2 machines in Digital Ocean
+- New analysis included in Cauldron like gitlab merges, github comments and github repo
+- Matomo + syslog is ready to be used in production
+- Redesign of projects cards to include more detailed information
+- Improved the way to share dashboards
+- Create documentation about indices
+- Updated visualizations for Kibana
+- Many bugs fixed related with the UI
+
+
 ## Honey
  - Anonymous data in enriched and raw indices
  - Creation of My workspace
