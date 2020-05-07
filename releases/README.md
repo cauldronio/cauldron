@@ -1,3 +1,15 @@
+## Jelly
+- New metrics, daily and monthly
+- Possibility of deploying Cauldron on 3 hosts
+- Syslog logs are now also saved in Elasticsearch
+- New Ansible playbook to provision remote hosts
+- Terraform templates have been modified
+- `git-demography` study has been disabled
+- New aliases for Elasticsearch indices
+- Upgrade to Open Distro 1.6
+- First user guide released
+- Fix minor bugs
+
 
 ## Iceberg
 - Redesign project page with a more intuitive header
@@ -17,6 +29,7 @@
  - Terraform templates to deploy on DigitalOcean
  - Usage of Syslog for log collection
  - Minor fixes
+
 
 ## Ginger
  - Option to remove Sortinghat from Grimoirelab
