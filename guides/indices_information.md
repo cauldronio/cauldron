@@ -1,6 +1,31 @@
+## Index patterns for Kibana
+
+To explore and visualize data in Kibana, you must create an index pattern. An index pattern tells Kibana which Elasticsearch indices contain the data that you want to work with. [1]
+
+- [**git**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/git.csv): Git commits and authors
+- [**github**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/github_issues.csv): GitHub issues and pull requests.
+- [**github_comments**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/github2_issues.csv): GitHub commentaries in issues and pull requests
+- [**github_repo**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/github_repos.csv): GitHub information related about the repositories
+- [**gitlab_issues**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/gitlab_issues.csv): GitLab issues
+- [**gitlab_mrs**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/gitlab_merges.csv): GitLab merge requests
+- [**meetup**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/meetup.csv): Meetup events
+- **all**: All the index patterns in one
+- **all_tickets**: Indices related with tickets (GitHub issues and Gitlab issues together)
+
+ *Deprecated index-patterns. Could be removed in a future release with a notification in Cauldron*
+
+- [**git_enrich**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/git.csv): Git commits and authors
+- [**github_enrich**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/github_issues.csv): GitHub issues and pull requests.
+- [**github2**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/github2_issues.csv): GitHub commentaries in issues and pull requests
+- [**github_repo_enrich**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/github_repos.csv): GitHub information related about the repositories
+- [**gitlab_enriched**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/gitlab_issues.csv): GitLab issues
+- [**gitlab_merge_requests**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/gitlab_merges.csv): GitLab merge requests
+- [**meetup_enriched**](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/meetup.csv): Meetup events
+- **ocean**: All the index patterns in one
+- **ocean_tickets**: Indices related with tickets (GitHub issues and Gitlab issues together)
 
 ## Indices 
-Indices are an optimized collection of JSON documents. Each document is a collection of fields, the key-value pairs that contain your data. [1]
+Indices are an optimized collection of JSON documents. Each document is a collection of fields, the key-value pairs that contain your data. [2]
 
 - [meetup_enriched_index](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/meetup.csv)
 - [git_enrich_index](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/git.csv)
@@ -11,22 +36,15 @@ Indices are an optimized collection of JSON documents. Each document is a collec
 - [github2_enrich_index](https://github.com/chaoss/grimoirelab-elk/blob/master/schema/github2_issues.csv)
 
 ## Index aliases
-Index aliases allows aliasing an index with a name. An alias can also be mapped to more than one index, and when specifying it, the alias will automatically expand to the aliased indices. [2]
+Index aliases allows aliasing an index with a name. An alias can also be mapped to more than one index, and when specifying it, the alias will automatically expand to the aliased indices. [3]
 
 ### Related to GitHub
 ```
 Alias                               Index
 =====                               =====
-affiliations                        github_enrich_index
-github_enrich                       github_enrich_index
-github_issues                       github_enrich_index
-github_issues_enrich                github_enrich_index
-issues_closed                       github_enrich_index
-issues_created                      github_enrich_index
-issues_updated                      github_enrich_index
-github2                             github2_enrich_index
-github_repo_enrich                  github_repo_enrich
-github                              github_repo_enrich
+github                              github_enrich_index
+github_repo                         github_repo_enrich_index
+github_comments                     github2_enrich_index
 ```
 
 ### Related to Git
@@ -34,18 +52,14 @@ github                              github_repo_enrich
 Alias                               Index
 =====                               =====
 git                                 git_enrich_index
-git_author                          git_enrich_index
-git_enrich                          git_enrich_index
 ```
 
 ### Related to Gitlab
 ```
 Alias                               Index
 =====                               =====
-gitlab                              gitlab_enriched_index
-gitlab_enriched                     gitlab_enriched_index
-gitlab_merge_requests               gitlab_mrs_enriched_index
-gitlab_mrs_enriched                 gitlab_mrs_enriched_index
+gitlab_issues                       gitlab_enriched_index
+gitlab_mrs                          gitlab_mrs_enriched_index
 ```
 
 ### Related to Meetup
@@ -53,14 +67,13 @@ gitlab_mrs_enriched                 gitlab_mrs_enriched_index
 Alias                               Index
 =====                               =====
 meetup                              meetup_enriched_index
-meetup_enriched                     meetup_enriched_index
 ```
 
 ### All data sources
 ```
 Alias                               Index
 =====                               =====
-ocean                               gitlab_enriched_index
+all                                 gitlab_enriched_index
                                     meetup_enriched_index
                                     git_enrich_index
                                     github_enrich_index
@@ -70,28 +83,15 @@ ocean                               gitlab_enriched_index
 ```
 Alias                               Index
 =====                               =====
-ocean_tickets                       gitlab_enriched_index
+all_tickets                         gitlab_enriched_index
                                     github_enrich_index
 ```
 
-
-## Index patterns
-
-To explore and visualize data in Kibana, you must create an index pattern. An index pattern tells Kibana which Elasticsearch indices contain the data that you want to work with. [3]
-
-- **github_enrich**: Issues and Pull requests.
-- **github2**: Commentaries in Issues and Pull requests
-- **github_repo_enrich**: Information related about the repositories
-- **git_enrich**: Commits and authors
-- **gitlab_enriched**: Issues
-- **gitlab_merge_requests**: Merge requests
-- **meetup_enriched**: Events
-- **ocean**: All the index patterns in one
-- **ocean_tickets**: Indices related with tickets. GitHub Issues and Gitlab Issues
-
 ## References
-[1] https://www.elastic.co/blog/what-is-an-elasticsearch-index
 
-[2] https://www.elastic.co/guide/en/elasticsearch/reference/6.8/indices-aliases.html
+[1] https://www.elastic.co/guide/en/kibana/current/index-patterns.html
 
-[3] https://www.elastic.co/guide/en/kibana/current/index-patterns.html
+[2] https://www.elastic.co/blog/what-is-an-elasticsearch-index
+
+[3] https://www.elastic.co/guide/en/elasticsearch/reference/6.8/indices-aliases.html
+
