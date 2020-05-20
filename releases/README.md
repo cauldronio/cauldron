@@ -1,3 +1,19 @@
+## Ketchup
+- New chapter for the user guide: [My analysis has finished! What's next?](https://community.cauldron.io/t/my-analysis-has-finished-whats-next/58)
+- Show metrics and [Bokeh charts](https://github.com/bokeh/bokeh) of a project without accessing Kibana. https://gitlab.com/cauldronio/cauldron/-/issues/342
+- Automatically refresh the repositories status table every 5 seconds. https://gitlab.com/cauldronio/cauldron/-/issues/278
+- Repository table filter enhancements. Include multi-filters for type of data source and status, and a search box to filter by name. https://gitlab.com/cauldronio/cauldron/-/issues/284
+- My projects page is now the default home page when the user is authenticated. https://gitlab.com/cauldronio/cauldron/-/issues/294
+- Update the public dashboard with new visualizations related with GitLab and Meetup. https://gitlab.com/cauldronio/cauldron/-/issues/313
+- Take advantage of sb-admin-2 for CSS. https://gitlab.com/cauldronio/cauldron/-/issues/334
+- Update CSS to the latest version and improve mobile support. https://gitlab.com/cauldronio/cauldron-web/-/merge_requests/121
+- Import new index patterns into existing Kibana workspaces. [More info](https://gitlab.com/cauldronio/cauldron/-/blob/master/guides/indices_information.md)
+- Store metrics related with Cauldron in ElasticSearch (daily users, daily completed tasks, etc.). https://gitlab.com/cauldronio/cauldron/-/issues/346
+- Create a Matomo link for admin users. https://gitlab.com/cauldronio/cauldron/-/issues/350
+- Continue with the new system for task management. https://gitlab.com/cauldronio/cauldron/-/issues/95
+- Fix "popular projects" links. https://gitlab.com/cauldronio/cauldron/-/issues/348
+
+
 ## Jelly
 - New metrics, daily and monthly
 - Possibility of deploying Cauldron on 3 hosts
