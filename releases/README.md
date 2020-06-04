@@ -1,3 +1,17 @@
+## Lemon
+- New chapter for the user guide: [Using Kibana in Cauldron](https://community.cauldron.io/t/using-kibana-in-cauldron/60)
+- Store metrics related with the state of Elasticsearch and make them accessible for admin users. https://gitlab.com/cauldronio/cauldron/-/issues/67
+- Create new visualizations in my project page using Bokeh. https://gitlab.com/cauldronio/cauldron/-/issues/361
+- Include a date range picker for the visualizations. https://gitlab.com/cauldronio/cauldron/-/issues/361
+- Simplify the way to add repositories into the project page. https://gitlab.com/cauldronio/cauldron/-/issues/353
+- Study why the analysis of repositories is slow when Sortinghat is active. https://gitlab.com/cauldronio/cauldron/-/issues/351
+- Preliminary analysis about the performance of each Cauldron page. https://gitlab.com/cauldronio/cauldron/-/issues/273 
+- Include a search box in the projects page. https://gitlab.com/cauldronio/cauldron/-/issues/355
+- Continue with the new system for task management. https://gitlab.com/cauldronio/cauldron/-/issues/95
+- Update design of public dashboard. https://gitlab.com/cauldronio/cauldron/-/issues/313
+- Fix UI bugs. https://gitlab.com/cauldronio/cauldron/-/issues/352
+
+
 ## Ketchup
 - New chapter for the user guide: [My analysis has finished! What's next?](https://community.cauldron.io/t/my-analysis-has-finished-whats-next/58)
 - Show metrics and [Bokeh charts](https://github.com/bokeh/bokeh) of a project without accessing Kibana. https://gitlab.com/cauldronio/cauldron/-/issues/342
