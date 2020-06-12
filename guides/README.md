@@ -6,4 +6,6 @@ We will include here some documentation about how to use Cauldron
 
 - [Indices available in Elasticsearch](indices_information.md)
 
+- [Project visualizations and metrics](project_metrics.md)
+
 - [Cauldron users workflow](main_workflow.png)
