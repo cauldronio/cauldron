@@ -1,3 +1,14 @@
+## Mayonnaise
+- New chapter for the user guide: [Adding some data sources to my Cauldron project](https://community.cauldron.io/t/adding-some-data-sources-to-my-cauldron-project/62)
+- New section in Cauldron Community: [FAQ](https://community.cauldron.io/t/frequently-asked-questions/63)
+- Include new set of visualization in the project page (https://gitlab.com/cauldronio/cauldron/-/issues/368)
+- Included Contributing documentation (https://gitlab.com/cauldronio/cauldron/-/issues/316)
+- Include pagination in the admin page (https://gitlab.com/cauldronio/cauldron/-/issues/372)
+- First approach to a Performance Report about Cauldron (https://gitlab.com/cauldronio/cauldron/-/issues/370)
+- Modify workers to run Sortinghat once a day (when it is enabled) (https://gitlab.com/cauldronio/cauldron/-/issues/369)
+- Fix UI bugs (https://gitlab.com/cauldronio/cauldron/-/issues/374)
+
+
 ## Lemon
 - New chapter for the user guide: [Using Kibana in Cauldron](https://community.cauldron.io/t/using-kibana-in-cauldron/60)
 - Store metrics related with the state of Elasticsearch and make them accessible for admin users. https://gitlab.com/cauldronio/cauldron/-/issues/67
@@ -5,7 +16,7 @@
 - Include a date range picker for the visualizations. https://gitlab.com/cauldronio/cauldron/-/issues/361
 - Simplify the way to add repositories into the project page. https://gitlab.com/cauldronio/cauldron/-/issues/353
 - Study why the analysis of repositories is slow when Sortinghat is active. https://gitlab.com/cauldronio/cauldron/-/issues/351
-- Preliminary analysis about the performance of each Cauldron page. https://gitlab.com/cauldronio/cauldron/-/issues/273 
+- Preliminary analysis about the performance of each Cauldron page. https://gitlab.com/cauldronio/cauldron/-/issues/273
 - Include a search box in the projects page. https://gitlab.com/cauldronio/cauldron/-/issues/355
 - Continue with the new system for task management. https://gitlab.com/cauldronio/cauldron/-/issues/95
 - Update design of public dashboard. https://gitlab.com/cauldronio/cauldron/-/issues/313
