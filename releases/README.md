@@ -1,3 +1,14 @@
+## Nut
+- New chapter for the user guide: [How to manage several projects or analysis in Cauldron](https://community.cauldron.io/t/how-to-manage-several-projects-or-analysis-in-cauldron/67)
+- Improve Cauldron development processes description. (https://gitlab.com/cauldronio/cauldron/-/issues/386)
+- Create a complete report with the metrics related with the evolution of Cauldron. (https://gitlab.com/cauldronio/cauldron/-/issues/384)
+- My projects page is now updated automatically with the progress of the analysis. (https://gitlab.com/cauldronio/cauldron/-/issues/196)
+- When you delete a project you will stay in the same page. (https://gitlab.com/cauldronio/cauldron/-/issues/320)
+- Matomo installation is now optional in custom deployments. (https://gitlab.com/cauldronio/cauldron/-/issues/332)
+- WIP. Create visualizations and metrics related with Community of a project. (https://gitlab.com/cauldronio/cauldron/-/issues/368)
+- WIP. Continue with the new system for task management. (https://gitlab.com/cauldronio/cauldron/-/issues/95)
+
+
 ## Mayonnaise
 - New chapter for the user guide: [Adding some data sources to my Cauldron project](https://community.cauldron.io/t/adding-some-data-sources-to-my-cauldron-project/62)
 - New section in Cauldron Community: [FAQ](https://community.cauldron.io/t/frequently-asked-questions/63)
