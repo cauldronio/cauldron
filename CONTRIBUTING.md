@@ -10,16 +10,22 @@ Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in
 
 ## How to contribute
 
-When contributing to this project, please first discuss the change you wish to make via [issue](https://gitlab.com/cauldronio/cauldron/-/issues/new), [community.cauldron.io](https://community.cauldron.io/c/support-feedback/2), or any other method with the owners of the project before making a change.
+When contributing to this project, please first discuss the change you wish to make via [issue](https://gitlab.com/cauldronio/cauldron/-/issues/new), [community.cauldron.io](https://community.cauldron.io/c/support-feedback/2), or any other method with the members of the project before making a change.
 
 Cauldron members will answer to it as soon as possible and do the [issue triage](https://gitlab.com/cauldronio/cauldron#issues-triage).
 
 
 ## Merge Request Process
 
-1. If you want to contribute to the project, we recommend first to create a fork of the repository you want to modify. If it is a code component, it is probable that you need to deploy Cauldron using the [caulron-deployment repository](https://gitlab.com/cauldronio/cauldron-deployment).
-1. The changes should be made in your fork branch, and when submitting the merge request, select `Allow commits from members who can merge to the target branch`. That way we can review the changes with the latest version at anytime.
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
-1. Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
-1. Increase the version numbers in any examples files and the README.md to the new version that this Merge Request would represent.
-1. You may merge the Merge Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+1. If you want to contribute to the project, we recommend first creating a fork of the repository that you want to modify. If it's a code component, you probably need to deploy Cauldron using [caulron's deployment repository](https://gitlab.com/cauldronio/cauldron-deployment).
+1. Changes must be made in your forked repository and then create a merge request.
+1. All merge requests must be linked to an issue with the description of the problem or the feature it achieves.
+1. Ensure any install or build dependencies are removed before you submit the merge request.
+1. Update the documentation with details of changes to the interface or configuration, this includes new environment variables, exposed ports, useful file locations and container parameters.
+1. If this is the case, increase the version numbers in any sample files and the README.md file to the new version that this merge request would represent.
+1. When submitting the merge request, select `Allow commits from members who can merge to the target branch`. That way we can review the changes with the latest version at anytime.
+1. One (or many) Cauldron maintainers will review the merge request and ask for the necessary changes. Anyone is welcome to comment on merge requests.
+1. Except in very special circumstances, that should be defined, contributions will be accepted under the GPLv3 (GNU Public License version 3).
+1. Once the merge request is approved, the reviewer will merge it.
+
+If you have any doubt, please, open a new thread in [Community forum](https://community.cauldron.io/c/support-feedback/2) or propose your changes to this file.
