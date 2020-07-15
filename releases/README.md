@@ -1,3 +1,14 @@
+## Orange
+- Fix bug related with time axis in Bokeh charts. (https://gitlab.com/cauldronio/cauldron/-/issues/389)
+- Modify some Bokeh charts that differed from Kibana ones. (https://gitlab.com/cauldronio/cauldron/-/issues/390)
+- New feature: forked repositories can now be analyzed. (https://gitlab.com/cauldronio/cauldron/-/issues/392)
+- Upgrade to Open Distro 1.8 and some other Python components. (https://gitlab.com/cauldronio/cauldron/-/issues/397)
+- Fix bug related with scripted fields in Kibana. (https://gitlab.com/cauldronio/cauldron/-/issues/399)
+- Include Bokeh time filter in the URL. (https://gitlab.com/cauldronio/cauldron/-/issues/378)
+- WIP. Create visualizations and metrics related with Community of a project. (https://gitlab.com/cauldronio/cauldron/-/issues/368)
+- WIP. Continue with the new system for task management. (https://gitlab.com/cauldronio/cauldron/-/issues/95)
+
+
 ## Nut
 - New chapter for the user guide: [How to manage several projects or analysis in Cauldron](https://community.cauldron.io/t/how-to-manage-several-projects-or-analysis-in-cauldron/67)
 - Improve Cauldron development processes description. (https://gitlab.com/cauldronio/cauldron/-/issues/386)
