@@ -1,3 +1,12 @@
+## Peanut
+- New chapter for the user guide: [How to submit issues or found bugs and new features in Cauldron](https://community.cauldron.io/t/how-to-submit-issues-or-found-bugs-and-new-features-in-cauldron/71)
+- Create visualizations and metrics related with Community of a project. One visualization pending. (https://gitlab.com/cauldronio/cauldron/-/issues/368)
+- Update design of a project and include a button to create a new project in every page. (https://gitlab.com/cauldronio/cauldron/-/issues/410)
+- Include documentation for custom deployments related to Ansible Vault. (https://gitlab.com/cauldronio/cauldron/-/issues/171)
+- Matomo logs are now imported correctly after a bug found in Matomo. (https://gitlab.com/cauldronio/cauldron/-/issues/409)
+- Bokeh Python and JS version now match. (https://gitlab.com/cauldronio/cauldron/-/issues/412)
+- WIP. Continue with the new system for task management. (https://gitlab.com/cauldronio/cauldron/-/issues/95)
+
 ## Orange
 - Fix bug related with time axis in Bokeh charts. (https://gitlab.com/cauldronio/cauldron/-/issues/389)
 - Modify some Bokeh charts that differed from Kibana ones. (https://gitlab.com/cauldronio/cauldron/-/issues/390)
