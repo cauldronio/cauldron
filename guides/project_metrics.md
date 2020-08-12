@@ -1,233 +1,55 @@
 # Project metrics
 
-## Commits Activity
+Each project in Cauldron provides some basic metrics about the repositories or other data that you may have analyzed.
 
-### \#Commits
-Number of commits, ignoring pull/merge request commits.
-- Last month: from 1 month ago to now.
-- Last year: from 1 year ago to now.
-- Year-over-year: comparison of commits from last year to the previous year.
+These metric are divided in 2 categories, and an overview panel that includes metrics and charts from both sections.
 
-```
-index: 'git'
-unique count: 'hash'
-range: from_date < 'grimoire_creation_date' < to_date
-filter: 'files' is not 0
-``` 
+Also, for those interested in further software development metrics, there is the possibility of viewing the results of your analysis in [Kibana](https://opendistro.github.io/for-elasticsearch-docs/docs/kibana/), through the `More details` button, found at the end of the sections.
 
-### \#Lines/commit
-Average lines changed per commit, ignoring pull/merge request commits.
-- Last month: from 1 month ago to now.
-- Last year: from 1 year ago to now.
-- Year-over-year: comparison of lines/commit from last year to the previous year.
-```
-index: 'git'
-average: 'lines_changed'
-range: from_date < 'grimoire_creation_date' < to_date
-filter: 'files' is not 0
-```
+## Overview
 
-### \#Files
-Number of files changed
-- Last month: from 1 month ago to now.
-- Last year: from 1 year ago to now.
-```
-index: 'git'
-sum: 'files'
-range: from_date < 'grimoire_creation_date' < to_date
-```
+This section shows an overview metrics panel about the analyzed data (mainly git). The metrics and graphs included in this section are:
+- [\# Commits](metrics/overview/commits.md)
+- [\# Pull requests](metrics/overview/pull-merge-requests-created.md)
+- [Review duration](metrics/overview/review-duration.md)
+- [\# Issues created](metrics/overview/issues-created.md)
+- [\# Issues closed](metrics/overview/issues-closed.md)
+- [Average time to close](metrics/overview/average-time-to-close.md)
+- [\# Commits over time (chart)](metrics/overview/commits-over-time.md)
+- [\# Authors per category over time (chart)](metrics/overview/authors-evolution.md)
+- [\# Issues open/closed (chart)](metrics/overview/issues-open-closed.md)
+- [\# Reviews open/closed (chart)](metrics/overview/reviews-open-closed.md)
 
-### \#Lines/commit/file
-Average of lines changed per file and commit, ignoring pull/merge request commits.
-- Last month: from 1 month ago to now.
-- Last year: from 1 year ago to now.
-- Year-over-year: comparison of lines/file/commit from last year to the previous year.
+## Activity
 
-```
-'#Lines/commit' / '#Files'
-```
+This section shows metrics related to the activity of the analyzed data (mainly git). The metrics and graphs included in this section are:
+- [\# Commits](metrics/activity/commits.md)
+- [\# Lines/commit](metrics/activity/lines-commit.md)
+- [\# Lines/commit/file](metrics/activity/lines-commit-file.md)
+- [\# Commits over time (chart)](metrics/activity/commits-over-time.md)
+- [\# Lines added/removed (chart)](metrics/activity/lines-added-removed.md)
+- [\# Commits by hour of the day (chart)](metrics/activity/commits-by-hour-of-day.md)
+- [\# Commits by weekday (chart)](metrics/activity/commits-by-weekday.md)
+- [\# Issues created](metrics/activity/issues-created.md)
+- [\# Issues closed](metrics/activity/issues-closed.md)
+- [\# Issues open](metrics/activity/issues-open.md)
+- [\# Issues open/closed (chart)](metrics/activity/issues-open-closed.md)
+- [\# Open issues age (chart)](metrics/activity/open-issues-age.md)
+- [\# Issues open by weekday (chart)](metrics/activity/issues-open-by-weekday.md)
+- [\# Issues closed by weekday (chart)](metrics/activity/issues-closed-by-weekday.md)
+- [\# Pull/Merge requests created](metrics/activity/pull-merge-requests-created.md)
+- [\# Pull/Merge requests closed](metrics/activity/pull-merge-requests-closed.md)
+- [\# Pull/Merge requests open](metrics/activity/pull-merge-requests-open.md)
+- [\# Reviews open/closed (chart)](metrics/activity/reviews-open-closed.md)
+- [\# Open reviews age (chart)](metrics/activity/open-reviews-age.md)
+- [\# Reviews open by weekday (chart)](metrics/activity/reviews-open-by-weekday.md)
+- [\# Reviews closed by weekday (chart)](metrics/activity/reviews-closed-by-weekday.md)
 
+## Community
 
-### \# Commits over time
-Evolution of the number of commits in the period defined by the user, ignoring pull/merge request commits.
-```
-index: 'git'
-filter: 'files' is not 0
-range: from_date < 'grimoire_creation_date' < to_date
-aggregation: 'date_histogram', field: 'grimoire_creation_date', calendar_interval: '1w'
-```
-
-### \# Lines added vs removed
-Number of lines added vs removed in the period defined by the user.
-```
-index: 'git'
-range: from_date < 'grimoire_creation_date' < to_date
-aggregation: 'date_histogram', field: 'grimoire_creation_date', calendar_interval: '1w'
-aggregation: 'sum', script: "doc['lines_removed'].value * -1"
-aggregation: 'sum', field: 'lines_added'
-```
-
-### \# Commits by hour of day
-Number of commits by day time in all the time, ignoring pull/merge request commits.
-```
-index: 'git'
-filter: 'files' is not 0
-aggregation: 'terms', script: "doc['grimoire_creation_date'].value.getHourOfDay()"
-```
-
-### \# Commits by weekday
-Number of commits by weekday in all the time, ignoring merge request commits (at least 1 file changed).
-```
-index: 'git'
-filter: 'files' is not 0
-aggregation: 'terms', script: "doc['grimoire_creation_date'].value.dayOfWeek"
-```
-
-
-## Issues Activity
-
-### \# Issues opened
-Number of created issues in a period of time
-- Last month: from 1 month ago to now.
-- Last year: from 1 year ago to now.
-- Year-over-year: comparison of issues created from last year to the previous year.
-```
-index: 'all'
-range: from_date < 'created_at' < to_date
-filter: pull_request:False or is_gitlab_issue:1
-```
-
-### \# Issues closed
-Number of closed issues in a period of time
-- Last month: from 1 month ago to now.
-- Last year: from 1 year ago to now.
-- Year-over-year: comparison of issues closed from last year to the previous year.
-```
-index: 'all'
-range: from_date < 'closed_at' < to_date
-filter: pull_request:False or is_gitlab_issue:1
-filter: 'state' is 'closed'
-```
-
-### \# Issues open on X date.
-Number of open issues on a date.
-- Today: number of issues that are open today.
-- 1 month ago: number of issues that were open 1 month ago.
-- 1 year ago: number of issues that were open 1 year ago.
-```
-index: 'all'
-filter: pull_request:False or is_gitlab_issue:1
-must : range('created_at' < date) AND (range('closed_at' > date) OR match(state='open'))
-```
-
-
-### \# Issues open/closed
-Open and closed issues by date in the period defined by the user.
-```
-index: 'all'
-filter: pull_request:False or is_gitlab_issue:1
-<open>
-    aggregation: 'filter': range(from_date < created_at < to_date)
-    aggregation: 'date_histogram', field: 'created_at', calendar_interval: '1w'
-<closed>
-    aggregation: 'filter': range(from_date < closed_at < to_date)
-    aggregation: 'date_histogram', field: 'closed_at', calendar_interval: '1w'
-```
-
-### \# Open issues age
-Since when they are created the issues that are currently open.
-```
-index: 'all'
-filter: (pull_request:False or is_gitlab_issue:1) and state:'open'
-aggregation: 'date_histogram', field: 'created_at', calendar_interval: '1w'
-```
-
-### \# Issues open by weekday
-Get when the issues are opened by weekday.
-```
-index: 'git'
-filter: (pull_request:False or is_gitlab_issue:1)
-aggregation: 'terms', script: "doc['created_at'].value.dayOfWeek"
-```
-
-### \# Issues closed by weekday
-Get when the issues are closed by weekday.
-```
-index: 'git'
-filter: (pull_request:False or is_gitlab_issue:1)
-aggregation: 'terms', script: "doc['closed_at'].value.dayOfWeek"
-```
-
-
-## Pull Requests and Merge Requests Activity
-
-### \# PRs/MRs opened
-Number of new Pull/Merge Requests in a period of time
-- Last month: from 1 month ago to now.
-- Last year: from 1 year ago to now.
-- Year-over-year: comparison of PRs/MRs created from last year to the previous year.
-```
-index: 'all'
-range: from_date < 'created_at' < to_date
-filter: pull_request:True or merge_request:True
-```
-
-### \# PRs/MRs closed
-Number of closed Pull/Merge Requests in a period of time
-- Last month: from 1 month ago to now.
-- Last year: from 1 year ago to now.
-- Year-over-year: comparison of PRs/MRs closed from last year to the previous year.
-```
-index: 'all'
-range: from_date < 'closed_at' < to_date
-filter: pull_request:True or merge_request:True
-```
-
-### \# PRs/MRs were open on X date.
-Number of open issues on a date.
-- Today: number of issues that are open today.
-- 1 month ago: number of issues that were open 1 month ago.
-- 1 year ago: number of issues that were open 1 year ago.
-```
-index: 'all'
-filter: pull_request:True or merge_request:True
-must : range('created_at' < date) AND (range('closed_at' > date) OR match(state='open'))
-```
-
-
-### \# Reviews open/closed
-Open and closed PRs/MRs by date in the period defined by the user.
-```
-index: 'all'
-filter: pull_request:True or merge_request:True
-<open>
-    aggregation: 'filter': range(from_date < created_at < to_date)
-    aggregation: 'date_histogram', field: 'created_at', calendar_interval: '1w'
-<closed>
-    aggregation: 'filter': range(from_date < closed_at < to_date)
-    aggregation: 'date_histogram', field: 'closed_at', calendar_interval: '1w'
-```
-
-### \# Open reviews age
-Since when they are created the PRs/MRs that are currently open.
-```
-index: 'all'
-filter: (pull_request:True or merge_request:True) and state:'open'
-aggregation: 'date_histogram', field: 'created_at', calendar_interval: '1w'
-```
-
-### \# Reviews open by weekday
-Get when the PRs/MRs are opened by weekday.
-```
-index: 'git'
-filter: pull_request:True or merge_request:True
-aggregation: 'terms', script: "doc['created_at'].value.dayOfWeek"
-```
-
-### \# Reviews closed by weekday
-Get when the PRs/MRs are closed by weekday.
-```
-index: 'git'
-filter: pull_request:True or merge_request:True
-aggregation: 'terms', script: "doc['closed_at'].value.dayOfWeek"
-```
+This section shows metrics related to the community activity of the analyzed data (mainly git). The metrics and graphs included in this section are:
+- [\# Active people](metrics/community/active-people.md)
+- [\# Onboardings](metrics/community/onboardings.md)
+- [\# Authors of commits](metrics/community/authors-commits.md)
+- [\# Authors of issues](metrics/community/authors-issues.md)
+- [\# Merge and Pull requests authors](metrics/community/authors-reviews.md)
