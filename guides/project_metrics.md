@@ -15,10 +15,10 @@ This section shows an overview metrics panel about the analyzed data (mainly git
 - [\# Issues created](metrics/overview/issues-created.md)
 - [\# Issues closed](metrics/overview/issues-closed.md)
 - [Average time to close](metrics/overview/average-time-to-close.md)
-- [\# Commits over time (chart)](metrics/overview/commits-over-time.md)
+- [\# Commits over time (chart)](metrics/activity/commits-over-time.md)
 - [\# Authors per category over time (chart)](metrics/overview/authors-evolution.md)
-- [\# Issues open/closed (chart)](metrics/overview/issues-open-closed.md)
-- [\# Reviews open/closed (chart)](metrics/overview/reviews-open-closed.md)
+- [\# Issues open/closed (chart)](metrics/activity/issues-open-closed.md)
+- [\# Reviews open/closed (chart)](metrics/activity/reviews-open-closed.md)
 
 ## Activity
 
