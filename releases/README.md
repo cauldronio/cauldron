@@ -1,3 +1,9 @@
+## Quinoa
+- Some charts updated. (https://gitlab.com/cauldronio/cauldron/-/issues/425)
+- Documentation updated. (https://gitlab.com/cauldronio/cauldron/-/issues/424 & https://gitlab.com/cauldronio/cauldron/-/issues/419)
+- Fix bugs related with documentation. (https://gitlab.com/cauldronio/cauldron/-/issues/418)
+- WIP. New metrics for the community section. (https://gitlab.com/cauldronio/cauldron/-/issues/368)
+
 ## Peanut
 - New chapter for the user guide: [How to submit issues or found bugs and new features in Cauldron](https://community.cauldron.io/t/how-to-submit-issues-or-found-bugs-and-new-features-in-cauldron/71)
 - Create visualizations and metrics related with Community of a project. One visualization pending. (https://gitlab.com/cauldronio/cauldron/-/issues/368)
