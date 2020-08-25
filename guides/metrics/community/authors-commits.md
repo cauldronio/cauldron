@@ -1,6 +1,6 @@
-# \# Authors of commits
+# Active authors (Git)
 
-Evolution of the number of commits authors in the period defined by the user, ignoring pull/merge request commits.
+Evolution of the number of active commit authors in the period defined by the user, ignoring pull/merge request commits.
 
 ```
 index: 'git'

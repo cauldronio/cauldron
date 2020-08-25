@@ -1,6 +1,6 @@
-# \# Merge and Pull requests authors
+# Active submitters (PRs/MRs)
 
-Evolution of the number of reviews authors in the period defined by the user.
+Evolution of the number of active submitters of PRs/MRs in the period defined by the user.
 
 ```
 index: 'all'

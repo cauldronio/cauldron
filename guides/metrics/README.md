@@ -50,6 +50,8 @@ This section shows metrics related to the activity of the analyzed data (mainly 
 This section shows metrics related to the community activity of the analyzed data (mainly git). The metrics and graphs included in this section are:
 - [\# Active people](metrics/community/active-people.md)
 - [\# Onboardings](metrics/community/onboardings.md)
-- [\# Authors of commits](metrics/community/authors-commits.md)
-- [\# Authors of issues](metrics/community/authors-issues.md)
-- [\# Merge and Pull requests authors](metrics/community/authors-reviews.md)
+- [Active authors (Git)](metrics/community/authors-commits.md)
+- [Active submitters (Issues)](metrics/community/authors-issues.md)
+- [Active submitters (PRs/MRs)](metrics/community/authors-reviews.md)
+- [Authors onboarding / last active (Git)](metrics/community/onboarding-last-active.md)
+- [Authors aging (Git)](metrics/community/authors-aging.md)

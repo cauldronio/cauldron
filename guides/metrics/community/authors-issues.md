@@ -1,6 +1,6 @@
-# \# Authors of issues
+# Active submitters (Issues)
 
-Evolution of the number of issues authors in the period defined by the user.
+Evolution of the number of active issue submitters in the period defined by the user.
 
 ```
 index: 'all'

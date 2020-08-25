@@ -1,6 +1,6 @@
-# \# Onboarding vs Last seen
+# Authors onboarding / last active (Git)
 
-Number of people entering vs last seen people in the period defined by the user.
+Number of authors onboarding vs authors last active in the period defined by the user.
 
 ```
 index: 'all'
