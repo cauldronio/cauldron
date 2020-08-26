@@ -5,7 +5,8 @@ This chart shows how many new people joined the community during a corresponding
 **NOTE**: The data displayed corresponds to the time of last data crunching.
 
 ```
-index: 'all'
+index: 'git'
+filter: 'files' is not 0
 aggregation: 'terms', field:'author_uuid'
     metric: 'min', field:'grimoire_creation_date'
     metric: 'max', field:'grimoire_creation_date'
