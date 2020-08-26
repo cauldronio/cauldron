@@ -55,3 +55,4 @@ This section shows metrics related to the community activity of the analyzed dat
 - [Active submitters (PRs/MRs)](metrics/community/authors-reviews.md)
 - [Authors onboarding / last active (Git)](metrics/community/onboarding-last-active.md)
 - [Authors aging (Git)](metrics/community/authors-aging.md)
+- [Authors retained ratio (Git)](metrics/community/authors-retained-ratio.md)
