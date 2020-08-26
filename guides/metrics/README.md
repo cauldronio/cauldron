@@ -11,10 +11,10 @@ Also, for those interested in further software development metrics, there is the
 This section shows an overview metrics panel about the analyzed data (mainly git). The metrics and graphs included in this section are:
 - [\# Commits](metrics/overview/commits.md)
 - [\# Pull requests](metrics/overview/pull-merge-requests-created.md)
-- [Review duration](metrics/overview/review-duration.md)
+- [Median review duration](metrics/overview/median-review-duration.md)
 - [\# Issues created](metrics/overview/issues-created.md)
 - [\# Issues closed](metrics/overview/issues-closed.md)
-- [Average time to close](metrics/overview/average-time-to-close.md)
+- [Median time to close](metrics/overview/median-time-to-close.md)
 - [\# Commits over time (chart)](metrics/activity/commits-over-time.md)
 - [\# Authors per category over time (chart)](metrics/overview/authors-evolution.md)
 - [\# Issues open/closed (chart)](metrics/activity/issues-open-closed.md)
