@@ -20,7 +20,7 @@ We are using this repository to track issues and requests for Cauldron. We welco
 
 ## Roadmap
 
-[TBD](https://gitlab.com/cauldronio/cauldron/-/issues/387)
+The roadmap and the rest of the boards in Cauldron are used to see at a glance the issues opened grouped by status, topic or deadline. All the information about these boards can be found [here](BOARDS.md).
 
 
 ## Release notes
@@ -33,19 +33,9 @@ We have two versions for the release notes:
 ## Development
 
 
-### Issues labels.
+### Issues labels
 
-**[TBD](https://gitlab.com/cauldronio/cauldron/-/issues/393)**
-
-We have some tags that could be useful to filter the different classes of issues we have:
-
-| Label | Description |
-|-------|-------------|
-| [Theme](https://gitlab.com/groups/cauldronio/-/boards?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Theme) | Platform's features we plan to develop. |
-| [Epic](https://gitlab.com/groups/cauldronio/-/boards?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Epic)  | Detailed tasks to solve a  `bug`  or a  `feature`. Epics are tasks that should be solved during a Sprint time. If a  `bug`  or a  `feature` is very specific and can be solved during a Sprint time, it doesn't need to be divided into several epics, and this label could be used added to it. |
-| [Bug](https://gitlab.com/groups/cauldronio/-/boards?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=bug)   | For glitches found in the platform. |
-| [TBD](https://gitlab.com/cauldronio/cauldron/-/issues/393) | - |
-
+We are using different labels to categorize the issues based on different criteria. All the information related to these labels can be found [here](LABELS.md).
 
 
 ### Sprint management
@@ -54,7 +44,7 @@ We have some tags that could be useful to filter the different classes of issues
 2. At the start of each Sprint, [Team Members](https://gitlab.com/cauldronio/cauldron/-/project_members) select (`epic` and (`bug` or `feature`)) labeled issues to work on them for the next release.
 3. That epics are listed and updated in [the Sprint kanban](https://gitlab.com/groups/cauldronio/-/boards/994133?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=Epic&milestone_title=%23started).
 4. Team Members move the epics from left to right in the kanban to ensure things get done.
- 
+
 
 ### Issues triage
 

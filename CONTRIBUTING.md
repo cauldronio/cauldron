@@ -17,7 +17,7 @@ Cauldron members will answer to it as soon as possible and do the [issue triage]
 
 ## Merge Request Process
 
-1. If you want to contribute to the project, we recommend first creating a fork of the repository that you want to modify. If it's a code component, you probably need to deploy Cauldron using [caulron's deployment repository](https://gitlab.com/cauldronio/cauldron-deployment).
+1. If you want to contribute to the project, we recommend first creating a fork of the repository that you want to modify. If it's a code component, you probably need to deploy Cauldron using [cauldron's deployment repository](https://gitlab.com/cauldronio/cauldron-deployment).
 1. Changes must be made in your forked repository and then create a merge request.
 1. All merge requests must be linked to an issue with the description of the problem or the feature it achieves.
 1. Ensure any install or build dependencies are removed before you submit the merge request.
