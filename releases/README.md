@@ -1,3 +1,10 @@
+## Rice
+- New chapter for the user guide: [About labels and boards](https://community.cauldron.io/t/about-labels-and-boards/79)
+- New metrics for the community section. (https://gitlab.com/cauldronio/cauldron/-/issues/368)
+- Improve some boards and metrics. (https://gitlab.com/cauldronio/cauldron/-/issues/413, https://gitlab.com/cauldronio/cauldron/-/issues/427 and https://gitlab.com/cauldronio/cauldron/-/issues/432)
+- Fix some bugs.(https://gitlab.com/cauldronio/cauldron/-/issues/422, https://gitlab.com/cauldronio/cauldron/-/issues/423 and https://gitlab.com/cauldronio/cauldron/-/issues/428)
+- WIP. Continue with the new system for task management. (https://gitlab.com/cauldronio/cauldron/-/issues/95)
+
 ## Quinoa
 - Some charts updated. (https://gitlab.com/cauldronio/cauldron/-/issues/425)
 - Documentation updated. (https://gitlab.com/cauldronio/cauldron/-/issues/424 & https://gitlab.com/cauldronio/cauldron/-/issues/419)
