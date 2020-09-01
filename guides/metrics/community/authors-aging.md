@@ -4,6 +4,8 @@ This chart shows how many new people joined the community during a corresponding
 
 **NOTE**: The data displayed corresponds to the time of last data refresh.
 
+More information: [Measure your open source communitie's age to keep it healthy](https://www.oreilly.com/content/measure-your-open-source-communitys-age-to-keep-it-healthy/)
+
 ```
 index: 'git'
 filter: 'files' is not 0
