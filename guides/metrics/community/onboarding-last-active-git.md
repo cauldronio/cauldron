@@ -1,6 +1,6 @@
 # Authors onboarding / last active (Git)
 
-Number of authors onboarding vs authors last active in the period defined by the user.
+Number of git authors onboarding vs authors last active in the period defined by the user.
 
 ```
 index: 'git'

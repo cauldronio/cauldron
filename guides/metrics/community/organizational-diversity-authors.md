@@ -1,4 +1,4 @@
-# Organizational diversity (Git)
+# Organizational diversity (Git) - Authors
 
 Shows the number of git authors who contribute to a project grouped by their organization domain in the period defined by the user, ignoring pull/merge request commits.
 
