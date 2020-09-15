@@ -30,6 +30,7 @@ This section shows metrics related to the activity of the analyzed data (mainly 
 - [\# Lines added/removed (chart)](metrics/activity/lines-added-removed.md)
 - [\# Commits by hour of the day (chart)](metrics/activity/commits-by-hour-of-day.md)
 - [\# Commits by weekday (chart)](metrics/activity/commits-by-weekday.md)
+- [\# Commits by hour and weekday (local time of commit author)](metrics/activity/commits-heatmap.md)
 - [\# Issues created](metrics/activity/issues-created.md)
 - [\# Issues closed](metrics/activity/issues-closed.md)
 - [\# Issues open](metrics/activity/issues-open.md)
@@ -37,6 +38,8 @@ This section shows metrics related to the activity of the analyzed data (mainly 
 - [\# Open issues age (chart)](metrics/activity/open-issues-age.md)
 - [\# Issues open by weekday (chart)](metrics/activity/issues-open-by-weekday.md)
 - [\# Issues closed by weekday (chart)](metrics/activity/issues-closed-by-weekday.md)
+- [Issues Opened Heatmap](metrics/activity/issues-opened-heatmap.md)
+- [Issues Closed Heatmap](metrics/activity/issues-closed-heatmap.md)
 - [\# Pull/Merge requests created](metrics/activity/pull-merge-requests-created.md)
 - [\# Pull/Merge requests closed](metrics/activity/pull-merge-requests-closed.md)
 - [\# Pull/Merge requests open](metrics/activity/pull-merge-requests-open.md)
@@ -44,6 +47,8 @@ This section shows metrics related to the activity of the analyzed data (mainly 
 - [\# Open reviews age (chart)](metrics/activity/open-reviews-age.md)
 - [\# Reviews open by weekday (chart)](metrics/activity/reviews-open-by-weekday.md)
 - [\# Reviews closed by weekday (chart)](metrics/activity/reviews-closed-by-weekday.md)
+- [Reviews Opened Heatmap](metrics/activity/reviews-opened-heatmap.md)
+- [Reviews Closed Heatmap](metrics/activity/reviews-closed-heatmap.md)
 
 ## Community
 
