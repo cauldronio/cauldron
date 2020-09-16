@@ -2,7 +2,7 @@
 
 This chart shows the ratio between retained (less than 3 months since user's last contribution) and non-retained review submitters in a community.
 
-**NOTE**: The data displayed corresponds to the time of last data refresh.
+**NOTE**: The data shown corresponds to a snapshot of the end date of the period selected by the user.
 
 ```
 index: 'all'
