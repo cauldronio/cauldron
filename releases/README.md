@@ -1,3 +1,11 @@
+## Salt
+- New article in the user guide: [Aging community chart](https://community.cauldron.io/t/aging-community-chart/82)
+- The new pool scheduler is integrated with the web server, we need to update the web interface and update some models. (https://gitlab.com/cauldronio/cauldron/-/issues/446)
+- New webpage to compare projects. Only numeric metrics and user projects (https://gitlab.com/cauldronio/cauldron/-/issues/405)
+- Aging chart and retained ratio visualizations depend on the dates selected by the user (https://gitlab.com/cauldronio/cauldron/-/issues/436)
+- When a project has a repository outdated, a message is displayed in the top of it. (https://gitlab.com/cauldronio/cauldron/-/issues/437)
+- Commits, issues and reviews by hour of day and weekday are now represented as a heatmap. (https://gitlab.com/cauldronio/cauldron/-/issues/438)  
+
 ## Rice
 - New chapter for the user guide: [About labels and boards](https://community.cauldron.io/t/about-labels-and-boards/79)
 - New metrics for the community section. (https://gitlab.com/cauldronio/cauldron/-/issues/368)
