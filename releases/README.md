@@ -1,3 +1,12 @@
+## Turnip
+- New article in the user guide: [Compare projects](https://community.cauldron.io/t/comparing-projects/84)
+- New visualizations in the compare projects page and all the metrics from a project. (https://gitlab.com/cauldronio/cauldron/-/issues/455)
+- Each tab in the project page now is loaded when a user opens it. (https://gitlab.com/cauldronio/cauldron/-/issues/457)
+- Finishing the incorporation of a new scheduling system for the analysis of tasks (https://gitlab.com/cauldronio/cauldron/-/issues/454)
+- Small changes in the user interface. (https://gitlab.com/cauldronio/cauldron/-/issues/464) and (https://gitlab.com/cauldronio/cauldron/-/issues/463)
+- Fix bugs found in the previous releases.
+
+
 ## Salt
 - New article in the user guide: [Aging community chart](https://community.cauldron.io/t/aging-community-chart/82)
 - The new pool scheduler is integrated with the web server, we need to update the web interface and update some models. (https://gitlab.com/cauldronio/cauldron/-/issues/446)
