@@ -1,3 +1,10 @@
+## Udon
+- New user guide: [Understanding the project metrics](https://community.cauldron.io/t/understanding-the-project-metrics/88)
+- New layout for the project metrics. (https://gitlab.com/cauldronio/cauldron/-/issues/468)
+- Hide visualizations not used. (https://gitlab.com/cauldronio/cauldron/-/issues/444)
+- Finishing the incorporation of a new scheduling system for the analysis of tasks. (https://gitlab.com/cauldronio/cauldron/-/issues/454)
+
+
 ## Turnip
 - New article in the user guide: [Compare projects](https://community.cauldron.io/t/comparing-projects/84)
 - New visualizations in the compare projects page and all the metrics from a project. (https://gitlab.com/cauldronio/cauldron/-/issues/455)
