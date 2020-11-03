@@ -1,3 +1,10 @@
+## Vermouth
+- New user guide: [Introducing the performance metrics](https://community.cauldron.io/t/introducing-the-performance-metrics/92)
+- New section in the project metrics: Performance (https://gitlab.com/cauldronio/cauldron/-/issues/469)
+- Pool scheduler integration finished (https://gitlab.com/cauldronio/cauldron/-/issues/454)
+- Fix some bugs in visualizations (https://gitlab.com/cauldronio/cauldron/-/issues/450, https://gitlab.com/cauldronio/cauldron/-/issues/474)
+
+
 ## Udon
 - New user guide: [Understanding the project metrics](https://community.cauldron.io/t/understanding-the-project-metrics/88)
 - New layout for the project metrics. (https://gitlab.com/cauldronio/cauldron/-/issues/468)
