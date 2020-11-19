@@ -6,6 +6,7 @@ Evolution of the number of authors (contributors, maintainers, observers, and us
 index: 'all'
 unique count: 'author_uuid'
 range: from_date < 'grimoire_creation_date' < to_date
+filter: 'terms', origin=urls
 aggregation: 'date_histogram', field: 'grimoire_creation_date', calendar_interval: '1w'
 filters: {
   'Maintainers': is_git_commit:1,

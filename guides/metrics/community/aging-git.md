@@ -9,6 +9,7 @@ More information: [Measure your open source communitie's age to keep it healthy]
 ```
 index: 'git'
 filter: 'files' is not 0
+filter: 'terms', origin=urls
 aggregation: 'terms', field:'author_uuid'
     metric: 'min', field:'grimoire_creation_date'
     metric: 'max', field:'grimoire_creation_date'

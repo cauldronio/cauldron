@@ -6,6 +6,7 @@ Number of review submitters onboarding vs review submitters last active in the p
 index: 'all'
 filter: pull_request:True or merge_request:True
 range: from_date < 'grimoire_creation_date' < to_date
+filter: 'terms', origin=urls
 aggregation: 'terms', field:'author_uuid'
     metric: 'min', field:'grimoire_creation_date'
     metric: 'max', field:'grimoire_creation_date'

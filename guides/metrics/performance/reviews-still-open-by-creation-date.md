@@ -5,5 +5,6 @@ This visualization shows the currently open reviews, grouped by their creation d
 ```
 index: 'all'
 filter: pull_request=True or merge_request=True
+filter: 'terms', origin=urls
 aggregation: 'date_histogram', field='created_at', calendar_interval='1M'
 ```

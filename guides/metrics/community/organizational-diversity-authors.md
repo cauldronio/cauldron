@@ -7,6 +7,7 @@ Shows the number of git authors who contribute to a project grouped by their org
 index: 'git'
 range: from_date < 'grimoire_creation_date' < to_date
 filter: 'files' is not 0
+filter: 'terms', origin=urls
 aggregation: 'terms', field:'author_domain', size:10, order:{'authors': 'desc'}
     metric: 'cardinality', field:'author_uuid'
 ```
@@ -18,5 +19,6 @@ range: from_date < 'grimoire_creation_date' < to_date
 filter: 'exists', field='author_domain'
 filter: 'author_domain' must not 'match_phrase' domains_ignored
 filter: 'files' is not 0
+filter: 'terms', origin=urls
 aggregation: 'cardinality', field:'author_uuid'
 ```

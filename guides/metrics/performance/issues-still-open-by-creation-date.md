@@ -5,5 +5,6 @@ This visualization shows the currently open issues, grouped by their creation da
 ```
 index: 'all'
 filter: pull_request=False or is_gitlab_issue=1
+filter: 'terms', origin=urls
 aggregation: 'date_histogram', field='created_at', calendar_interval='1M'
 ```

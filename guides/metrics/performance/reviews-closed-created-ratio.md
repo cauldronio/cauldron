@@ -5,6 +5,7 @@ This visualization shows the ratio between reviews closed and created in a given
 ```
 index: 'all'
 filter: (pull_request=True or merge_request=True) and state=['open', 'opened']
+filter: 'terms', origin=urls
 aggregation: 'range', 'created_at'={'gte': from_date, "lte": to_date}
              'date_histogram', field='created_at', calendar_interval=interval_elastic
 aggregation: 'range', 'closed_at'={'gte': from_date, "lte": to_date}

@@ -6,6 +6,7 @@ Number of commits by weekday and by day time in the period defined by the user, 
 index: 'git'
 filter: 'files' is not 0
 range: from_date < 'grimoire_creation_date' < to_date
+filter: 'terms', origin=urls
 aggregation: 'terms', field:'commit_date_weekday', size:7, order={'_term': 'asc'}
 aggregation: 'terms', field:'commit_date_hour', size:24, order={'_term': 'asc'}
 ```

@@ -8,4 +8,5 @@ Number of files changed
 index: 'git'
 sum: 'files'
 range: from_date < 'grimoire_creation_date' < to_date
+filter: 'terms', origin=urls
 ```

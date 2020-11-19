@@ -8,5 +8,6 @@ Number of open issues on a date.
 ```
 index: 'all'
 filter: pull_request:True or merge_request:True
+filter: 'terms', origin=urls
 must : range('created_at' < date) AND (range('closed_at' > date) OR match(state='open'))
 ```

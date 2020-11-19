@@ -9,5 +9,6 @@ Average lines changed per commit, ignoring pull/merge request commits.
 index: 'git'
 average: 'lines_changed'
 range: from_date < 'grimoire_creation_date' < to_date
+filter: 'terms', origin=urls
 filter: 'files' is not 0
 ```

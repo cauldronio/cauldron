@@ -7,6 +7,7 @@ This chart shows the ratio between retained (less than 3 months since user's las
 ```
 index: 'all'
 filter: pull_request:True or merge_request:True
+filter: 'terms', origin=urls
 aggregation: 'terms', field:'author_uuid'
     metric: 'min', field:'grimoire_creation_date'
     metric: 'max', field:'grimoire_creation_date'

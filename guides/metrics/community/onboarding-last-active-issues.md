@@ -6,6 +6,7 @@ Number of issue submitters onboarding vs issue submitters last active in the per
 index: 'all'
 filter: pull_request:False or is_gitlab_issue:1
 range: from_date < 'grimoire_creation_date' < to_date
+filter: 'terms', origin=urls
 aggregation: 'terms', field:'author_uuid'
     metric: 'min', field:'grimoire_creation_date'
     metric: 'max', field:'grimoire_creation_date'
