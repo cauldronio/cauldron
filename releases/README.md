@@ -1,3 +1,11 @@
+## Wakame
+- New user guide: [Incoming feature: repository filtering](https://community.cauldron.io/t/incoming-feature-repository-filtering/94)
+- New repository filtering option for project metrics
+- New comparison visualizations
+- Backend improvements for the performance of the system
+- Fix bugs
+
+
 ## Vermouth
 - New user guide: [Introducing the performance metrics](https://community.cauldron.io/t/introducing-the-performance-metrics/92)
 - New section in the project metrics: Performance (https://gitlab.com/cauldronio/cauldron/-/issues/469)
