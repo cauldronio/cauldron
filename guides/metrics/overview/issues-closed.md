@@ -2,6 +2,7 @@
 
 Number of closed issues in a period of time.
 
+## Elasticsearch query parameters
 ```
 index: 'all'
 range: from_date < 'closed_at' < to_date

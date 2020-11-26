@@ -2,6 +2,7 @@
 
 Number of new Pull/Merge Requests in a period of time.
 
+## Elasticsearch query parameters
 ```
 index: 'all'
 range: from_date < 'created_at' < to_date

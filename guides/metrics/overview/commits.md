@@ -1,7 +1,8 @@
 # \# Commits
 
-Number of commits, ignoring pull/merge request commits.
+Number of commits, ignoring empty commits.
 
+## Elasticsearch query parameters
 ```
 index: 'git'
 unique count: 'hash'

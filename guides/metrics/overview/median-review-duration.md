@@ -2,6 +2,7 @@
 
 Median time to merge a pull request or merge request (reviews merged in the period defined by the user that were opened at any time)
 
+## Elasticsearch query parameters
 ```
 index: 'all'
 50th percentil: 'time_to_close_days'

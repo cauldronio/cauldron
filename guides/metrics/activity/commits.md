@@ -1,10 +1,11 @@
 # \# Commits
 
-Number of commits, ignoring pull/merge request commits.
+Number of commits, ignoring empty commits.
 - Last month: from 1 month ago to now.
 - Last year: from 1 year ago to now.
 - Year-over-year: comparison of commits from last year to the previous year.
 
+## Elasticsearch query parameters
 ```
 index: 'git'
 unique count: 'hash'
