@@ -31,6 +31,7 @@ This section shows metrics related to the activity of the analyzed data (mainly 
 - [\# Commits by hour of the day (chart)](activity/commits-by-hour-of-day.md)
 - [\# Commits by weekday (chart)](activity/commits-by-weekday.md)
 - [\# Commits by hour and weekday (local time of commit author)](activity/commits-heatmap.md)
+- [\# Commits by repository](activity/commits-by-repository.md)
 - [\# Issues created](activity/issues-created.md)
 - [\# Issues closed](activity/issues-closed.md)
 - [\# Issues open](activity/issues-open.md)
@@ -40,6 +41,8 @@ This section shows metrics related to the activity of the analyzed data (mainly 
 - [\# Issues closed by weekday (chart)](activity/issues-closed-by-weekday.md)
 - [Issues Opened Heatmap](activity/issues-opened-heatmap.md)
 - [Issues Closed Heatmap](activity/issues-closed-heatmap.md)
+- [\# Issues created by repository](activity/issues-created-by-repository.md)
+- [\# Issues closed by repository](activity/issues-closed-by-repository.md)
 - [\# Pull/Merge requests created](activity/pull-merge-requests-created.md)
 - [\# Pull/Merge requests closed](activity/pull-merge-requests-closed.md)
 - [\# Pull/Merge requests open](activity/pull-merge-requests-open.md)
@@ -49,6 +52,8 @@ This section shows metrics related to the activity of the analyzed data (mainly 
 - [\# Reviews closed by weekday (chart)](activity/reviews-closed-by-weekday.md)
 - [Reviews Opened Heatmap](activity/reviews-opened-heatmap.md)
 - [Reviews Closed Heatmap](activity/reviews-closed-heatmap.md)
+- [\# Reviews started by repository](activity/reviews-created-by-repository.md)
+- [\# Reviews closed by repository](activity/reviews-closed-by-repository.md)
 
 ## Community
 
