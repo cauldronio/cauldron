@@ -1,3 +1,14 @@
+## Xacuti
+- New user guide: [Renewing the layout](https://community.cauldron.io/t/renewing-the-layout/98)
+- Upgrade to Open Distro 1.11.0 (https://gitlab.com/cauldronio/cauldron/-/issues/459)
+- New visualizations (https://gitlab.com/cauldronio/cauldron/-/issues/500)
+- Integration of Sortinghat with the pool scheduler (https://gitlab.com/cauldronio/cauldron/-/issues/478 & https://gitlab.com/cauldronio/cauldron/-/issues/493)
+- Expand the comparison page (https://gitlab.com/cauldronio/cauldron/-/issues/509)
+- Update overview project page (https://gitlab.com/cauldronio/cauldron/-/issues/515)
+- Improvements to the owner analysis (https://gitlab.com/cauldronio/cauldron/-/issues/510)
+- Minor changes (https://gitlab.com/cauldronio/cauldron/-/issues/488, https://gitlab.com/cauldronio/cauldron/-/issues/501, https://gitlab.com/cauldronio/cauldron/-/issues/514 & https://gitlab.com/cauldronio/cauldron/-/issues/518)
+
+
 ## Wakame
 - New user guide: [Incoming feature: repository filtering](https://community.cauldron.io/t/incoming-feature-repository-filtering/94)
 - New repository filtering option for project metrics
