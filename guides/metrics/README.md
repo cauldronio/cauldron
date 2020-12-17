@@ -54,6 +54,7 @@ This section shows metrics related to the activity of the analyzed data (mainly 
 - [Reviews Closed Heatmap](activity/reviews-closed-heatmap.md)
 - [\# Reviews started by repository](activity/reviews-created-by-repository.md)
 - [\# Reviews closed by repository](activity/reviews-closed-by-repository.md)
+- [Mean and median duration (days) of all closed reviews](activity/mean-and-median-duration-reviews-closed.md)
 
 ## Community
 
@@ -74,6 +75,7 @@ This section shows metrics related to the community activity of the analyzed dat
 - [Submitters retained ratio (PRs/MRs)](community/retained-ratio-reviews.md)
 - [Organizational diversity (Git) - Authors](community/organizational-diversity-authors.md)
 - [Organizational diversity (Git) - Commits](community/organizational-diversity-commits.md)
+- [Drive-by and repeat contributor counts](community/drive-by-and-repeat-contributor-counts.md)
 
 ## Performance
 
