@@ -1,3 +1,15 @@
+## Yogurt
+- New backend: Gitlab for Gnome (https://gitlab.com/cauldronio/cauldron/-/issues/505)
+- Export git data as CSV (https://gitlab.com/cauldronio/cauldron/-/issues/512)
+- Create a CHAOSS report section for each project (https://gitlab.com/cauldronio/cauldron/-/issues/519)
+- Store actions performed by users in projects (https://gitlab.com/cauldronio/cauldron/-/issues/510)
+- Modify some Bokeh visualizations (https://gitlab.com/cauldronio/cauldron/-/issues/485 and https://gitlab.com/cauldronio/cauldron/-/issues/520)
+- Update descriptions in visualizations (https://gitlab.com/cauldronio/cauldron/-/issues/531)
+- Plausible.io log analytics for Cauldron.io (https://gitlab.com/cauldronio/cauldron/-/issues/476)
+- Fix Cauldron internal metrics (https://gitlab.com/cauldronio/cauldron/-/issues/502)
+- Document Cauldron internal metrics (https://gitlab.com/cauldronio/cauldron/-/issues/483)
+
+
 ## Xacuti
 - New user guide: [Renewing the layout](https://community.cauldron.io/t/renewing-the-layout/98)
 - Upgrade to Open Distro 1.11.0 (https://gitlab.com/cauldronio/cauldron/-/issues/459)
