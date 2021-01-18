@@ -1,6 +1,6 @@
 # \# Commits by hour and weekday (local time of commit author)
 
-Number of commits by weekday and by day time in the period defined by the user, ignoring merge request commits (at least 1 file changed).
+The heatmap shows what times of day contributors in their local time zone contribute. Activity that clusters between regular office hours on workdays can indicate activity by contributors who do this as part of their job. Activity during evenings and weekends can indicate volunteer activity.
 
 ```
 index: 'git'
