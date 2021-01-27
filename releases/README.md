@@ -1,3 +1,11 @@
+## Zucchini
+- New user guide: [Adding the GNOME’s GitLab](https://community.cauldron.io/t/adding-the-gnomes-gitlab/105)
+- New project creation process (https://gitlab.com/cauldronio/cauldron/-/issues/542)
+- Modify the CHAOSS section (https://gitlab.com/cauldronio/cauldron/-/issues/554)
+- Fix several metrics (https://gitlab.com/cauldronio/cauldron/-/issues/545)
+- Internal: store the Django logs (https://gitlab.com/cauldronio/cauldron/-/issues/426)
+
+
 ## Yogurt
 - New backend: Gitlab for Gnome (https://gitlab.com/cauldronio/cauldron/-/issues/505)
 - Export git data as CSV (https://gitlab.com/cauldronio/cauldron/-/issues/512)
