@@ -1,3 +1,12 @@
+## Aledo
+- New user guide: [Set up a project analysis](https://community.cauldron.io/t/set-up-a-project-analysis/112)
+- New backend: GitLab for KDE (https://gitlab.com/cauldronio/cauldron/-/issues/543)
+- Recommended projects in landing page (https://gitlab.com/cauldronio/cauldron/-/issues/570)
+- Fix CSV export tool (https://gitlab.com/cauldronio/cauldron/-/issues/566)
+- Option for deleting all repositories within a project (https://gitlab.com/cauldronio/cauldron/-/issues/517)
+- Minor fixes (https://gitlab.com/cauldronio/cauldron/-/issues/565 & https://gitlab.com/cauldronio/cauldron/-/issues/562)
+
+
 ## Zucchini
 - New user guide: [Adding the GNOME’s GitLab](https://community.cauldron.io/t/adding-the-gnomes-gitlab/105)
 - New project creation process (https://gitlab.com/cauldronio/cauldron/-/issues/542)
