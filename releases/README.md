@@ -1,3 +1,11 @@
+## Barcones
+- New user guide: [How to analyze a repository from KDE's GitLab](https://community.cauldron.io)
+- User access control (https://gitlab.com/cauldronio/cauldron/-/issues/569)
+- UI improvements (https://gitlab.com/cauldronio/cauldron/-/issues/583)
+- Pagination on the project comparison page (https://gitlab.com/cauldronio/cauldron/-/issues/539)
+- Bug fixes (https://gitlab.com/cauldronio/cauldron/-/issues/577, https://gitlab.com/cauldronio/cauldron/-/issues/581 & https://gitlab.com/cauldronio/cauldron-common-apps/-/merge_requests/18)
+
+
 ## Aledo
 - New user guide: [Set up a project analysis](https://community.cauldron.io/t/set-up-a-project-analysis/112)
 - New backend: GitLab for KDE (https://gitlab.com/cauldronio/cauldron/-/issues/543)
