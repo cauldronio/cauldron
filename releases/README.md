@@ -1,5 +1,5 @@
 ## Barcones
-- New user guide: [How to analyze a repository from KDE's GitLab](https://community.cauldron.io)
+- New user guide: [How to analyze a repository from KDE's GitLab](https://community.cauldron.io/t/how-to-analyze-a-repository-from-kdes-gitlab/115)
 - User access control (https://gitlab.com/cauldronio/cauldron/-/issues/569)
 - UI improvements (https://gitlab.com/cauldronio/cauldron/-/issues/583)
 - Pagination on the project comparison page (https://gitlab.com/cauldronio/cauldron/-/issues/539)

@@ -6,7 +6,7 @@ For those users who have their own Cauldron instance deployed, you will be happy
 
 We know that the project comparison page is a powerful tool, but it can sometimes take a while to load results when asked to compare very large projects. That is why we have modified the behavior of this page to load only those data from the tab the user is in (previously all metrics and graphs were calculated at the same time)
 
-In the last release we included the possibility to analyze KDE's GitLab projects. To give it a start, we have written a [small post](https://community.cauldron.io) in which you can learn how to analyze this type of projects, take a look!
+In the last release we included the possibility to analyze KDE's GitLab projects. To give it a start, we have written a [small post](https://community.cauldron.io/t/how-to-analyze-a-repository-from-kdes-gitlab/115) in which you can learn how to analyze this type of projects, take a look!
 
 Finally, we have fixed some small bugs that we have discovered and others that you have reported to us, thank you very much!
 
