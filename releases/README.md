@@ -1,3 +1,12 @@
+## Carazo
+- New user guide: [How to export / import custom dashboards in Cauldron](https://community.cauldron.io/t/how-to-export-import-custom-dashboards-in-cauldron/119)
+- Actions of a project (https://gitlab.com/cauldronio/cauldron/-/issues/584)
+- Twitter login (https://gitlab.com/cauldronio/cauldron/-/issues/414)
+- New Terraform templates (https://gitlab.com/cauldronio/cauldron/-/issues/549)
+- New admin options (https://gitlab.com/cauldronio/cauldron/-/issues/524)
+- UI improvement (https://gitlab.com/cauldronio/cauldron/-/issues/602)
+
+
 ## Barcones
 - New user guide: [How to analyze a repository from KDE's GitLab](https://community.cauldron.io/t/how-to-analyze-a-repository-from-kdes-gitlab/115)
 - User access control (https://gitlab.com/cauldronio/cauldron/-/issues/569)
