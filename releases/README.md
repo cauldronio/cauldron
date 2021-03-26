@@ -1,3 +1,11 @@
+## Doade
+- New backend: StackExchange (https://gitlab.com/cauldronio/cauldron/-/issues/341)
+- Explore projects (https://gitlab.com/cauldronio/cauldron/-/issues/551)
+- Notifications system (https://gitlab.com/cauldronio/cauldron/-/issues/572)
+- Autoaffiliation bug fixed (https://gitlab.com/cauldronio/cauldron/-/issues/618)
+- Modify UI (https://gitlab.com/cauldronio/cauldron/-/issues/625, https://gitlab.com/cauldronio/cauldron/-/issues/624, https://gitlab.com/cauldronio/cauldron/-/issues/613, https://gitlab.com/cauldronio/cauldron/-/issues/605, https://gitlab.com/cauldronio/cauldron/-/issues/591, https://gitlab.com/cauldronio/cauldron/-/issues/590 & https://gitlab.com/cauldronio/cauldron/-/issues/541)
+
+
 ## Carazo
 - New user guide: [How to export / import custom dashboards in Cauldron](https://community.cauldron.io/t/how-to-export-import-custom-dashboards-in-cauldron/119)
 - Actions of a project (https://gitlab.com/cauldronio/cauldron/-/issues/584)
