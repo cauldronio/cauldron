@@ -1,3 +1,8 @@
+## Encinas
+- Improve the backup system (https://gitlab.com/cauldronio/cauldron/-/issues/574)
+- Twitter notifications (https://gitlab.com/cauldronio/cauldron/-/issues/414)
+
+
 ## Doade
 - New backend: StackExchange (https://gitlab.com/cauldronio/cauldron/-/issues/341)
 - Explore projects (https://gitlab.com/cauldronio/cauldron/-/issues/551)
