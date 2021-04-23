@@ -55,6 +55,10 @@ This section shows metrics related to the activity of the analyzed data (mainly 
 - [\# Reviews started by repository](activity/reviews-created-by-repository.md)
 - [\# Reviews closed by repository](activity/reviews-closed-by-repository.md)
 - [Mean and median duration (days) of all closed reviews](activity/mean-and-median-duration-reviews-closed.md)
+- [\# Questions](activity/questions.md)
+- [\# Answers](activity/answers.md)
+- [\# Questions (chart)](activity/questions-chart.md)
+- [\# Answers (chart)](activity/answers-chart.md)
 
 ## Community
 
@@ -76,6 +80,10 @@ This section shows metrics related to the community activity of the analyzed dat
 - [Organizational diversity (Git) - Authors](community/organizational-diversity-authors.md)
 - [Organizational diversity (Git) - Commits](community/organizational-diversity-commits.md)
 - [Drive-by and repeat contributor counts](community/drive-by-and-repeat-contributor-counts.md)
+- [\# People asking](community/people-asking.md)
+- [\# People answering](community/people-answering.md)
+- [\# People asking (chart)](community/people-asking-chart.md)
+- [\# People answering (chart)](community/people-answering-chart.md)
 
 ## Performance
 
