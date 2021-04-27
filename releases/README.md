@@ -1,3 +1,16 @@
+## Famorca
+- New user guide: [New StackExchange metrics in Cauldron](https://community.cauldron.io/t/new-stackexchange-metrics-in-cauldron/133)
+- Download data for any datasource as CSV (https://gitlab.com/cauldronio/cauldron/-/issues/627)
+- New visualizations for StackExchange (https://gitlab.com/cauldronio/cauldron/-/issues/633)
+- Remove Matomo (https://gitlab.com/cauldronio/cauldron/-/issues/636)
+- Remove Google Analytics (https://gitlab.com/cauldronio/cauldron/-/issues/224)
+- Migration to Open Distro 1.13.2 (https://gitlab.com/cauldronio/cauldron/-/issues/536)
+- Hide data sources not defined (https://gitlab.com/cauldronio/cauldron/-/issues/642)
+- Update banner model (https://gitlab.com/cauldronio/cauldron-common-apps/-/merge_requests/28)
+- Fix some metrics and visualizations (https://gitlab.com/cauldronio/cauldron-web/-/merge_requests/259)
+- Fix a bug in repository filtering (https://gitlab.com/cauldronio/cauldron/-/issues/648)
+
+
 ## Encinas
 - Improve the backup system (https://gitlab.com/cauldronio/cauldron/-/issues/574)
 - Twitter notifications (https://gitlab.com/cauldronio/cauldron/-/issues/414)
