@@ -4,6 +4,8 @@ Cauldron is a SaaS analytics solution developed by [Bitergia](https://bitergia.c
 
 Cauldron is based on the [GrimoireLab toolset](https://chaoss.github.io/grimoirelab). All the software used to produce it is free / open source software.
 
+Try Cauldron for free at [Cauldron.io](https://cauldron.io/)!
+
 
 ## Community forum
 
