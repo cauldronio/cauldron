@@ -1,3 +1,17 @@
+## Godojos
+- New user guide: [Export data as CSV](https://community.cauldron.io/t/export-data-as-csv/139)
+- Enable Kibana reports. Allow downloading PDFs or PNGs of the current dashboard (https://gitlab.com/cauldronio/cauldron/-/issues/647)
+- Possibility to create fork of reports (https://gitlab.com/cauldronio/cauldron/-/issues/639)
+- First steps to easily embed report analysis elsewhere (https://gitlab.com/cauldronio/cauldron/-/issues/641)
+- Include a sparkline with the last 5 years of activity in report cards (https://gitlab.com/cauldronio/cauldron/-/issues/638)
+- Improve report cards content with a table with numbers (https://gitlab.com/cauldronio/cauldron/-/issues/640) 
+- Modify overview page of a report with metrics grouped in cards (https://gitlab.com/cauldronio/cauldron/-/issues/600)
+- Include organization domains to Cauldron Cloud instances (https://gitlab.com/cauldronio/cauldron/-/issues/632)
+- Fix a bug analyzing GitHub issues in Cauldron Cloud instances (https://gitlab.com/cauldronio/cauldron/-/issues/657)
+- Minor changes to UI (https://gitlab.com/cauldronio/cauldron/-/issues/661)
+- Minor performance changes (https://gitlab.com/cauldronio/cauldron/-/issues/673)
+
+
 ## Famorca
 - New user guide: [New StackExchange metrics in Cauldron](https://community.cauldron.io/t/new-stackexchange-metrics-in-cauldron/133)
 - Download data for any datasource as CSV (https://gitlab.com/cauldronio/cauldron/-/issues/627)
