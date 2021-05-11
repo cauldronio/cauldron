@@ -79,7 +79,7 @@ This section shows metrics related to the community activity of the analyzed dat
 - [Submitters retained ratio (PRs/MRs)](community/retained-ratio-reviews.md)
 - [Organizational diversity (Git) - Authors](community/organizational-diversity-authors.md)
 - [Organizational diversity (Git) - Commits](community/organizational-diversity-commits.md)
-- [Drive-by and repeat contributor counts](community/drive-by-and-repeat-contributor-counts.md)
+- [Drive-through and repeat contributor counts](community/drive-through-and-repeat-contributor-counts.md)
 - [\# People asking](community/people-asking.md)
 - [\# People answering](community/people-answering.md)
 - [\# People asking (chart)](community/people-asking-chart.md)
