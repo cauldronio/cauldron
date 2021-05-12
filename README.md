@@ -1,3 +1,5 @@
+![Git contrubutors (by Cauldron.io)](https://cauldron.io/project/4195/git_contributors.svg)
+
 # [Cauldron](https://cauldron.io)
 
 Cauldron is a SaaS analytics solution developed by [Bitergia](https://bitergia.com/) that allows users to aggregate information from multiple collaboration platforms as different types of data sources. Cauldron is free, open source software to allow users, contributors, and maintainers to use, study, share, and improve the software openly.
@@ -6,6 +8,7 @@ Cauldron is based on the [GrimoireLab toolset](https://chaoss.github.io/grimoire
 
 Try Cauldron for free at [Cauldron.io](https://cauldron.io/)!
 
+![Stats about Cauldron by Cauldron.io](https://cauldron.io/project/4195/stats.svg)
 
 ## Community forum
 
