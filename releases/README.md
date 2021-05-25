@@ -1,10 +1,21 @@
+## Higueras
+- New user guide: [Introducing the Cauldron badges](https://community.cauldron.io/t/introducing-the-cauldron-badges/142)
+- SVG badges (https://gitlab.com/cauldronio/cauldron/-/issues/675)
+- Web interface to manage users (https://gitlab.com/cauldronio/cauldron/-/issues/637)
+- New Kibana dashboards (https://gitlab.com/cauldronio/cauldron/-/issues/669)
+- New sort options for reports (https://gitlab.com/cauldronio/cauldron/-/issues/526)
+- New settings page for reports (https://gitlab.com/cauldronio/cauldron/-/issues/628)
+- Pricing page (https://gitlab.com/cauldronio/cauldron/-/issues/674)
+- Modify landing page (https://gitlab.com/cauldronio/cauldron/-/issues/589)
+
+
 ## Godojos
 - New user guide: [Export data as CSV](https://community.cauldron.io/t/export-data-as-csv/139)
 - Enable Kibana reports. Allow downloading PDFs or PNGs of the current dashboard (https://gitlab.com/cauldronio/cauldron/-/issues/647)
 - Possibility to create fork of reports (https://gitlab.com/cauldronio/cauldron/-/issues/639)
 - First steps to easily embed report analysis elsewhere (https://gitlab.com/cauldronio/cauldron/-/issues/641)
 - Include a sparkline with the last 5 years of activity in report cards (https://gitlab.com/cauldronio/cauldron/-/issues/638)
-- Improve report cards content with a table with numbers (https://gitlab.com/cauldronio/cauldron/-/issues/640) 
+- Improve report cards content with a table with numbers (https://gitlab.com/cauldronio/cauldron/-/issues/640)
 - Modify overview page of a report with metrics grouped in cards (https://gitlab.com/cauldronio/cauldron/-/issues/600)
 - Include organization domains to Cauldron Cloud instances (https://gitlab.com/cauldronio/cauldron/-/issues/632)
 - Fix a bug analyzing GitHub issues in Cauldron Cloud instances (https://gitlab.com/cauldronio/cauldron/-/issues/657)
