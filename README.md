@@ -1,4 +1,4 @@
-![Git contrubutors (by Cauldron.io)](https://cauldron.io/project/4195/git_contributors.svg)
+[![Git contributors (by Cauldron.io)](https://cauldron.io/project/4195/git_contributors.svg)](https://cauldron.io/project/4195)
 
 # [Cauldron](https://cauldron.io)
 
@@ -8,7 +8,7 @@ Cauldron is based on the [GrimoireLab toolset](https://chaoss.github.io/grimoire
 
 Try Cauldron for free at [Cauldron.io](https://cauldron.io/)!
 
-![Stats about Cauldron by Cauldron.io](https://cauldron.io/project/4195/stats.svg)
+[![Stats about Cauldron by Cauldron.io](https://cauldron.io/project/4195/stats.svg)](https://cauldron.io/project/4195)
 
 ## Community forum
 

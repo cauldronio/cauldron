@@ -1,3 +1,14 @@
+## Izurtza
+- New user guide: [Managing users in Cauldron](https://community.cauldron.io/t/managing-users-in-cauldron/147)
+- New user guide: [Cauldron Cloud Kibana panels](https://community.cauldron.io/t/cauldron-cloud-kibana-panels/148)
+- Define a project by a list of repositories from Git, GitHub or GitLab (https://gitlab.com/cauldronio/cauldron/-/issues/685)
+- Create a panel with commits, issues and reviews per repository  (https://gitlab.com/cauldronio/cauldron/-/issues/686)
+- Anyone authenticated can update any project (https://gitlab.com/cauldronio/cauldron/-/issues/461)
+- Include documentation for dashboards included in Cauldron Cloud (https://gitlab.com/cauldronio/cauldron/-/issues/669)
+- Fix bug 10k caps information on report panels (https://gitlab.com/cauldronio/cauldron/-/issues/684)
+- Top menu redesign (https://gitlab.com/cauldronio/cauldron/-/issues/626)
+
+
 ## Higueras
 - New user guide: [Introducing the Cauldron badges](https://community.cauldron.io/t/introducing-the-cauldron-badges/142)
 - SVG badges (https://gitlab.com/cauldronio/cauldron/-/issues/675)
