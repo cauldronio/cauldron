@@ -1,3 +1,14 @@
+## Jirueque
+- New landing page (https://gitlab.com/cauldronio/cauldron/-/issues/676)
+- Kibana reports (https://gitlab.com/cauldronio/cauldron/-/issues/672)
+- **(Only Cauldron Cloud)** New metrics section (https://gitlab.com/cauldronio/cauldron/-/issues/622)
+- **(Only Cauldron Cloud)** Public and private reports (https://gitlab.com/cauldronio/cauldron/-/issues/689)
+- Changes to the repository metrics table (https://gitlab.com/cauldronio/cauldron/-/issues/705)
+- Comparison page improvements (https://gitlab.com/cauldronio/cauldron/-/issues/571, https://gitlab.com/cauldronio/cauldron/-/issues/522 and https://gitlab.com/cauldronio/cauldron/-/issues/523)
+- Improve Elasticsearch queries (https://gitlab.com/cauldronio/cauldron/-/issues/660)
+- Bug fixes (https://gitlab.com/cauldronio/cauldron/-/issues/683)
+
+
 ## Izurtza
 - New user guide: [Managing users in Cauldron](https://community.cauldron.io/t/managing-users-in-cauldron/147)
 - New user guide: [Cauldron Cloud Kibana panels](https://community.cauldron.io/t/cauldron-cloud-kibana-panels/148)
